@@ -4,13 +4,13 @@ import { getFirestore } from "firebase/firestore"
 import { getAuth } from "firebase/auth"
 
 const firebaseConfig = {
-    apiKey: "",
-    authDomain: "",
-    projectId: "",
-    storageBucket: "",
-    messagingSenderId: "",
-    appId: "",
-    measurementId: ""
+  apiKey: "AIzaSyCdYnknF0iIGqFj8iBAZLZkzOMky7eDfGs",
+  authDomain: "avalicaojulia.firebaseapp.com",
+  projectId: "avalicaojulia",
+  storageBucket: "avalicaojulia.firebasestorage.app",
+  messagingSenderId: "382394506759",
+  appId: "1:382394506759:web:efc1e95427b37073f014a2",
+  measurementId: "G-90E9H8GM8F"
 };
 
 const app = initializeApp(firebaseConfig)
